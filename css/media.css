@@ -1,0 +1,304 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .h-nav-lo{
+    	width: 50%;
+    }
+    /*banner*/
+
+    .b_h1 {
+    font-size: 25px;
+    }
+
+    .b_p2 {
+    font-size: 15px;
+    }
+
+    .b_h5 {
+    font-size: 16px;
+    padding: 5px 19px;
+    }
+
+    .banner {
+    padding: 30px 0 50px;
+    }
+
+    .b_text {;
+        text-align: center;
+    }
+
+    /*App image end*/
+
+    .app_content{
+        width: 150%;
+        position: relative;
+        bottom: 4px;
+        left: -78px;
+    }
+
+    /*App image start*/
+
+    /*Support start*/
+
+    .support {
+        margin: 0;
+        padding: 60px 0 60px;
+    }
+
+    .su_title {
+        margin:0;
+    }
+
+    .su_title h1 {
+        margin: 0 0 20px 17px;
+    }
+
+    /*Support end*/
+
+    /*Special Features start*/
+
+    .spec_feat {
+        padding: 60px 0 0;
+    }
+
+    .spf_text h5 {
+        margin: 0;
+    }
+
+    .spf_text {
+        text-align: center;
+    }
+
+    .spf_item {
+        margin-bottom: 50px;
+    }
+
+    /*Special Features end*/
+
+    /*Our Services start*/
+
+    .ouse_item {
+        text-align: center;
+    }
+
+    /*Our Services end*/
+
+    /*Contact us start*/
+
+    .c_form{
+        margin: 40px 0 40px;
+    }
+
+    .c_imput{
+        padding: 10px 10px;
+        height: 40px;
+    }
+
+    .c_submit{
+        height: 40px;
+    }
+
+    .c_icon ul li{
+        margin-right: 20px !important;
+    }
+
+    .c_icon ul li i{
+        font-size: 38px;
+    }
+
+    /*Contact us end*/
+
+    /*Footer start*/
+
+    footer{
+        padding-bottom: 70px;
+    }
+
+    .f_address{
+        text-align: center;
+    }
+
+    .f_content{
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    /*Footer end*/
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /*header*/
+    .h-nav-lo{
+    	width: 40%;
+    }
+    /*banner*/
+    .banner {
+    padding: 30px 0 50px;
+    }
+
+    .b_text {;
+        display: block;
+        text-align: center;
+    }
+
+    /*app img*/
+
+    .su_title {
+         margin: 0; 
+    }
+
+    /*Special Features start*/
+
+    .spec_feat {
+        padding: 60px 0 0;
+    }
+
+    .spf_text {
+        text-align: center;
+    }
+
+    .spf_text h5{
+        margin: 0 50px;
+    }
+
+    .spf_item {
+        margin-bottom: 50px;
+    }
+
+    /*Special Features end*/
+
+    /*Contact us start*/
+
+    .c_form{
+        margin: 35px 0 40px;
+    }
+
+    .c_imput{
+        padding: 10px 10px;
+        height: 45px;
+    }
+
+    .c_submit{
+        height: 45px;
+    }
+
+    .c_icon ul li{
+        margin-right: 20px !important;
+    }
+
+    .c_icon ul li i{
+        font-size: 38px;
+    }
+
+    /*Contact us end*/
+
+    /*Footer start*/
+
+    footer{
+        padding-bottom: 70px;
+    }
+
+    .f_address{
+        padding-bottom: 40px;
+        text-align: center;
+    }
+
+    .f_content{
+        text-align: center;
+    }
+
+    /*Footer end*/
+
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /*Banner*/
+    .banner {
+    padding: 30px 0 50px;
+    }
+
+    .b_text {
+        margin: 0 60px;
+        text-align: center;
+    }
+
+    /*Support start*/
+
+    .su_title {
+        margin: 0px 83px 55px 105px;
+    }
+
+    /*Support end*/
+
+    /*Special Features start*/
+
+    .spec_feat {
+        padding: 60px 0 0;
+    }
+
+    .spf_text {
+        text-align: center;
+    }
+
+    .spf_text h5{
+        margin: 0 50px;
+    }
+
+    .spf_item {
+        margin-bottom: 50px;
+    }
+
+    /*Special Features end*/
+
+    /*Contact us start*/
+
+    .c_form{
+        margin: 65px 0 70px;
+    }
+
+    .c_icon ul li{
+        margin-right: 25px !important;
+    }
+
+    .c_icon ul li i{
+        font-size: 40px;
+    }
+
+    /*Contact us end*/
+
+    /*Footer start*/
+
+    footer{
+        padding-bottom: 100px;
+    }
+
+    /*Footer end*/
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /*Header*/
+    .h-nav-coll-li {
+    margin: 0 3px;
+	}
+
+    /*Support start*/
+
+    .su_title {
+        margin: 0px 220px 55px 245px;
+    }
+
+    /*Support end*/
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    
+}
+
+/*Extra extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+    
+}
