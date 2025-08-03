@@ -283,20 +283,6 @@ header{
     border-radius: 50px;
 }
 
-.abu_img2{
-    margin-top: 10px;
-}
-
-.abu_img2 img{
-    border-radius: 50px;
-}
-
-.abu_img3{}
-
-.abu_img3 img{
-    border-radius: 50px;
-}
-
 .parallax-img {
   display: block;
   width: 100%;
@@ -310,7 +296,7 @@ header{
 
 .abu_text{}
 
-.abu_text h1{
+.abu_text h2{
     font-family: var(--osb);
     color: var(--ye);
 }
@@ -356,11 +342,15 @@ header{
 }
 
 .ouse_item{
-    margin-top: 30px;
+    margin-bottom: 30px;
     padding: 30px 45px;
     background-color: var(--as);
     text-align: center;
     border-radius: 35px;
+}
+
+.ouse_spa, .ouse_spa2{
+    margin-bottom: 0;
 }
 
 .ouse_it_i{}
@@ -472,6 +462,8 @@ header{
     color: var(--wh);
 }
 
+.spf_item_text{}
+
 .spf_item_text h5{
     font-family: var(--osb);
     color: var(--ye);
@@ -505,7 +497,7 @@ header{
 .test_owl{}
 
 .test_oi{
-    margin-right: 10px;
+    margin: 0 5px;
     padding: 2rem;
     background-color: var(--as);
     border-radius: 35px;
@@ -556,7 +548,7 @@ header{
 
 .su_contact{
     -webkit-box-flex: 1;
-    padding: 2rem;
+    padding: 41px 32px;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
     border: 0.1rem solid rgba(0, 0, 0, 0.1);;
     border-radius: 35px;
@@ -631,12 +623,19 @@ header{
     margin-left: 5px;
     display: inline;
     font-family: var(--osb);
+    font-size: 18px;
 }
 
 .su_info_title i{
     color: var(--ye);
     font-size: 20px;
 }
+
+.su_info_p {
+    margin-left: 28px;
+}
+
+.su_info_p p{}
 
 .form-check-input:checked {
     background-color: var(--ye);
@@ -663,13 +662,13 @@ footer{
     margin-bottom: 20px;
 }
 
-.f_title h2{
+.f_title h4{
     position: relative;
     padding-bottom: 10px;
     color: var(--ye);
 }
 
-.f_title h2::before{
+.f_title h4::before{
     background-color: #ff9900;
     height: 4px;
     position: absolute;
@@ -681,35 +680,35 @@ footer{
 
 .f_item{}
 
-.f_be h2::before{
+.f_be h4::before{
     width: 30%;
 }
 
-.f_item:hover .f_be h2::before{
+.f_item:hover .f_be h4::before{
     width: 56%;
 }
 
-.f_be2 h2::before{
+.f_be2 h4::before{
     width: 35%;
 }
 
-.f_item:hover .f_be2 h2::before{
+.f_item:hover .f_be2 h4::before{
     width: 57%;
 }
 
-.f_be3 h2::before{
+.f_be3 h4::before{
     width: 42%;
 }
 
-.f_item:hover .f_be3 h2::before{
+.f_item:hover .f_be3 h4::before{
     width: 68%;
 }
 
-.f_be4 h2::before{
+.f_be4 h4::before{
     width: 54%;
 }
 
-.f_item:hover .f_be4 h2::before{
+.f_item:hover .f_be4 h4::before{
     width: 84%;
 }
 

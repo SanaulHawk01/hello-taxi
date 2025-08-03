@@ -1,125 +1,178 @@
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
-    .h-nav-lo{
-    	width: 50%;
+
+    /*Common feature*/
+
+    .c_title {
+        margin: 50px 0 20px;
     }
-    /*banner*/
+
+    /*Common feature*/
+
+    /*Header Start*/
+
+    header{
+        margin: 15px 5px 0;
+        padding: 0 15px 0;
+    }
+
+    .h-nav-tog {
+        background-color: white;
+    }
+
+    .h-btn {
+        margin-bottom: 15px;
+        padding: 9px 12px;
+    }
+
+    .h-nav-lo {
+        width: 30%;
+    }
+
+    /*Header end*/
+
+    /*Banner start*/
+
+    .banner {
+        padding: 120px 0 50px;
+    }
+
+    .b_text {
+        text-align: center;
+    }
 
     .b_h1 {
-    font-size: 25px;
-    }
-
-    .b_p2 {
-    font-size: 15px;
+        font-size: 25px;
     }
 
     .b_h5 {
-    font-size: 16px;
-    padding: 5px 19px;
+        margin: 0 0 30px;
     }
 
-    .banner {
-    padding: 30px 0 50px;
+    /*Banner end*/
+
+    /*About Us start*/
+
+    .about_Us {
+        padding: 0 0 50px;
     }
 
-    .b_text {;
+    .abu_text {
         text-align: center;
     }
 
-    /*App image end*/
-
-    .app_content{
-        width: 150%;
-        position: relative;
-        bottom: 4px;
-        left: -78px;
+    .abu_img img {
+        border-radius: 30px;
     }
 
-    /*App image start*/
-
-    /*Support start*/
-
-    .support {
-        margin: 0;
-        padding: 60px 0 60px;
-    }
-
-    .su_title {
-        margin:0;
-    }
-
-    .su_title h1 {
-        margin: 0 0 20px 17px;
-    }
-
-    /*Support end*/
-
-    /*Special Features start*/
-
-    .spec_feat {
-        padding: 60px 0 0;
-    }
-
-    .spf_text h5 {
-        margin: 0;
-    }
-
-    .spf_text {
-        text-align: center;
-    }
-
-    .spf_item {
-        margin-bottom: 50px;
-    }
-
-    /*Special Features end*/
+    /*About Us end*/
 
     /*Our Services start*/
 
+    .our_ser {
+        padding: 0 0 50px;
+    }
+
+    .ouse_img {
+        width: 100%;
+    }
+
     .ouse_item {
-        text-align: center;
+        padding: 30px 18px;
+    }
+
+    .ouse_par {
+        margin: 10px 0 25px;
+    }
+
+    .ouse_spa {
+        margin-bottom: 30px;
+    }
+
+    .ouse_it_tit h2 {
+        font-size: 24px;
     }
 
     /*Our Services end*/
 
-    /*Contact us start*/
+    /*Special Features start*/
 
-    .c_form{
-        margin: 40px 0 40px;
+    .spec_feat {
+        padding: 0 0 50px;
     }
 
-    .c_imput{
-        padding: 10px 10px;
-        height: 40px;
+    .spf_item_i {
+        margin: 0 0 30px 32%;
     }
 
-    .c_submit{
-        height: 40px;
+    .spf_item_text{
+        text-align: center;
     }
 
-    .c_icon ul li{
-        margin-right: 20px !important;
+    /*Special Features end*/
+
+    /*Testimonial start*/
+
+    .test_content {
+        padding: 0 0 50px;
     }
 
-    .c_icon ul li i{
-        font-size: 38px;
+    .test_oi {
+        margin: 0;
     }
 
-    /*Contact us end*/
+    /*Testimonial end*/
+
+    /*Support start*/
+
+    .support {
+        padding: 0 0 50px;
+    }
+
+    .su_title p {
+        width: 100%;
+    }
+
+    .su_info_p {
+        margin-left: 0;
+    }
+
+    .su_info{
+        text-align: center;
+    }
+
+    .su_from {
+        margin: 20px 0 20px;
+    }
+
+    /*Support end*/
 
     /*Footer start*/
 
     footer{
-        padding-bottom: 70px;
+        padding: 0 0 50px;
     }
 
-    .f_address{
+    .f_item {
+        margin-bottom: 35px;
+    }
+
+    .f_item {
         text-align: center;
     }
 
-    .f_content{
-        margin-top: 40px;
-        text-align: center;
+    .f_title h4::before {
+        transform: translate(-50%);
+        left: 50%;
+    }
+
+
+    .f_cor_i a i {
+        margin-right: 5px;
+    }
+
+    .f_btn {
+        padding: 10px 123px;
     }
 
     /*Footer end*/
@@ -127,84 +180,172 @@
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
-    /*header*/
-    .h-nav-lo{
-    	width: 40%;
-    }
-    /*banner*/
-    .banner {
-    padding: 30px 0 50px;
+    
+    /*Common feature*/
+
+    .c_title {
+        margin: 70px 0 30px;
     }
 
-    .b_text {;
-        display: block;
+    /*Common feature*/
+
+    /*Header Start*/
+
+    header{
+        margin: 15px 20px 0;
+        padding: 0 15px 0;
+    }
+
+    .h-nav-tog {
+        background-color: white;
+    }
+
+    .h-btn {
+        margin-bottom: 15px;
+        padding: 9px 12px;
+    }
+
+    .h-nav-lo {
+        width: 20%;
+    }
+
+    /*Header end*/
+
+    /*Banner start*/
+
+    .banner {
+        padding: 135px 0 70px;
+    }
+
+    .b_text {
         text-align: center;
     }
 
-    /*app img*/
-
-    .su_title {
-         margin: 0; 
+    .b_h5 {
+        margin: 0 0 30px;
     }
+
+    /*Banner end*/
+
+    /*About Us start*/
+
+    .about_Us {
+        padding: 0 0 70px;
+    }
+
+    .abu_text {
+        text-align: center;
+    }
+
+    .abu_img img {
+        border-radius: 30px;
+    }
+
+    /*About Us end*/
+
+    /*Our Services start*/
+
+    .our_ser {
+        padding: 0 0 70px;
+    }
+
+    .ouse_img {
+        width: 100%;
+    }
+
+    .ouse_item {
+        padding: 30px 18px;
+    }
+
+    .ouse_spa {
+        margin-bottom: 30px;
+    }
+
+    .ouse_it_tit h2 {
+        font-size: 24px;
+    }
+
+    /*Our Services end*/
 
     /*Special Features start*/
 
     .spec_feat {
-        padding: 60px 0 0;
+        padding: 0 0 70px;
     }
 
-    .spf_text {
+    .spf_item_i {
+        margin: 0 0 30px 40%;
+    }
+
+    .spf_item_text{
+        margin: 0 25%;
         text-align: center;
-    }
-
-    .spf_text h5{
-        margin: 0 50px;
-    }
-
-    .spf_item {
-        margin-bottom: 50px;
     }
 
     /*Special Features end*/
 
-    /*Contact us start*/
+    /*Testimonial start*/
 
-    .c_form{
-        margin: 35px 0 40px;
+    .test_content {
+        padding: 0 0 70px;
     }
 
-    .c_imput{
-        padding: 10px 10px;
-        height: 45px;
+    .test_oi {
+        margin: 0;
     }
 
-    .c_submit{
-        height: 45px;
+    /*Testimonial end*/
+
+    /*Support start*/
+
+    .support {
+        padding: 0 0 70px;
     }
 
-    .c_icon ul li{
-        margin-right: 20px !important;
+    .su_title p {
+        width: 65%;
     }
 
-    .c_icon ul li i{
-        font-size: 38px;
+    .su_info_p {
+        margin-left: 0;
     }
 
-    /*Contact us end*/
+    .su_info{
+        text-align: center;
+    }
+
+    .su_from {
+        margin: 0 0 30px;
+    }
+
+    /*Support end*/
 
     /*Footer start*/
 
     footer{
-        padding-bottom: 70px;
+        padding: 0 0 35px;
     }
 
-    .f_address{
-        padding-bottom: 40px;
+    .f_item {
+        margin-bottom: 35px;
+    }
+
+    .f_item {
         text-align: center;
     }
 
-    .f_content{
-        text-align: center;
+    .f_title h4::before {
+        transform: translate(-50%);
+        left: 50%;
+    }
+
+
+    .f_cor_i a i {
+        margin-right: 5px;
+    }
+
+    .f_btn {
+        padding: 10px 98px;
     }
 
     /*Footer end*/
@@ -214,9 +355,40 @@
 
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
-    /*Banner*/
+
+    /*Common feature*/
+
+    .c_title {
+        margin: 80px 0 40px;
+    }
+
+    /*Common feature*/
+
+    /*Header Start*/
+
+    header{
+        padding: 0 15px 0;
+    }
+
+    .h-nav-tog {
+        background-color: white;
+    }
+
+    .h-btn {
+        margin-bottom: 15px;
+        padding: 9px 12px;
+    }
+
+    .h-nav-lo {
+        width: 16%;
+    }
+
+    /*Header end*/
+
+    /*Banner start*/
+
     .banner {
-    padding: 30px 0 50px;
+        padding: 140px 0 80px;
     }
 
     .b_text {
@@ -224,54 +396,93 @@
         text-align: center;
     }
 
-    /*Support start*/
+    /*Banner end*/
 
-    .su_title {
-        margin: 0px 83px 55px 105px;
+    /*About Us start*/
+
+    .about_Us {
+        padding: 0 0 80px;
     }
 
-    /*Support end*/
+    .abu_img img {
+        border-radius: 30px;
+    }
+
+    /*About Us end*/
+
+    /*Our Services start*/
+
+    .our_ser {
+        padding: 0 0 80px;
+    }
+
+    .ouse_img {
+        width: 100%;
+    }
+
+    .ouse_item {
+        padding: 30px 18px;
+    }
+
+    .ouse_it_tit h2 {
+        font-size: 24px;
+    }
+
+    /*Our Services end*/
 
     /*Special Features start*/
 
     .spec_feat {
-        padding: 60px 0 0;
+        padding: 0 0 80px;
     }
 
-    .spf_text {
+    .spf_item_i {
+        margin: 0 0 30px 42%;
+    }
+
+    .spf_item_text{
+        margin: 0 30%;
         text-align: center;
-    }
-
-    .spf_text h5{
-        margin: 0 50px;
-    }
-
-    .spf_item {
-        margin-bottom: 50px;
     }
 
     /*Special Features end*/
 
-    /*Contact us start*/
+    /*Testimonial start*/
 
-    .c_form{
-        margin: 65px 0 70px;
+    .test_content {
+        padding: 0 0 80px;
     }
 
-    .c_icon ul li{
-        margin-right: 25px !important;
+    .test_oi {
+        margin: 0 2px;
     }
 
-    .c_icon ul li i{
-        font-size: 40px;
+    /*Testimonial end*/
+
+    /*Support start*/
+
+    .support {
+        padding: 0 0 80px;
     }
 
-    /*Contact us end*/
+    .su_title p {
+        width: 50%;
+    }
+
+    .su_from {
+        margin: 0 0 30px;
+    }
+
+    /*Support end*/
 
     /*Footer start*/
 
     footer{
-        padding-bottom: 100px;
+        padding-bottom: 80px;
+    }
+
+    .f_cor_i a i {
+        margin-right: 5px;
     }
 
     /*Footer end*/
@@ -279,26 +490,104 @@
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
-    /*Header*/
-    .h-nav-coll-li {
-    margin: 0 3px;
-	}
+    /*Header Start*/
+
+    header{
+        padding: 0 15px 0;
+    }
+
+    .h-btn {
+        padding: 9px 12px;
+    }
+
+    .h-nav-lo {
+        width: 12%;
+    }
+
+    /*Header end*/
+
+    /*banner start*/
+
+    .banner {
+        padding: 125px 0 100px;
+    }
+
+    /*banner end*/
+
+    /*Our Services start*/
+
+    .ouse_img {
+        width: 100%;
+    }
+
+    .ouse_item {
+        padding: 30px 18px;
+    }
+
+    /*Our Services end*/
+
+    /*Special Features start*/
+
+    .spf_item_i {
+        margin-left: 0;
+    }
+
+    /*Special Features end*/
+
+    /*Testimonial start*/
+
+    .test_oi {
+        margin-right: 0;
+    }
+
+    /*Testimonial end*/
 
     /*Support start*/
 
-    .su_title {
-        margin: 0px 220px 55px 245px;
+    .su_contact {
+        padding: 32px 20px;
     }
+
+    .su_info_title i {
+        color: var(--ye);
+        font-size: 15px;
+    }
+
+    .su_info_title h5 {
+        margin-left: 0;
+        font-size: 16px;
+    }
+
+    .su_info_p {
+        margin-left: 20px;
+    }
+
+    .su_info p {
+        font-size: 15px;
+    }
+
 
     /*Support end*/
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) and (max-width: 1399.98px) {
-    
+    /*Header Start*/
+
+    header{
+        padding: 0 15px 0;
+    }
+
+    /*Header end*/
 }
 
 /*Extra extra large devices (large desktops, 1400px and up)*/
 @media (min-width: 1400px) {
-    
+    /*Header Start*/
+
+    header{
+        padding: 0 15px 0;
+    }
+
+    /*Header end*/
 }
