@@ -172,7 +172,8 @@
     }
 
     .f_btn {
-        padding: 10px 123px;
+        width: 100%;
+        padding: 10px 20px;
     }
 
     /*Footer end*/
